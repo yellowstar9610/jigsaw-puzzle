@@ -295,6 +295,7 @@
 	}
 
 	.pic {
+    opacity: 0;
 		width: calc((100vw - 60px)/3 - 3px);
 		height: calc((100vw - 60px)/3 - 3px);
 		float: left;
@@ -304,6 +305,7 @@
 	}
 
 	.pic.show-pic {
+    opacity: 1;
 		display: block;
 	}
 </style>
